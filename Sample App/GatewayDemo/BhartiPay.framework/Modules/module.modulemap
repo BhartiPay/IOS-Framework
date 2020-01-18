@@ -1,0 +1,11 @@
+framework module BhartiPay {
+  umbrella header "BhartiPay.h"
+
+  export *
+  module * { export * }
+}
+
+module BhartiPay.Swift {
+    header "BhartiPay-Swift.h"
+    requires objc
+}
